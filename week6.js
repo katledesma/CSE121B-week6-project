@@ -25,7 +25,7 @@ async function generateQuote() {
 button.addEventListener("click", generateQuote);
 
 // display image & call generateQuote function at startup
-document.querySelector('img').setAttribute('src', '/tasks/week06/aurelius.png');
+document.querySelector('img').setAttribute('src', 'aurelius.png');
 generateQuote();
 
 });
